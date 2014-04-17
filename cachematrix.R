@@ -46,7 +46,7 @@ cacheSolve <- function(x, ...) {
                 return(inverse)
         }
         
-        # If the inverse not was calculated
+        # If the inverse was not calculated
         value <- x$setinverse()
         return(value)
 }
